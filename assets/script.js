@@ -9,7 +9,3 @@ function loadContent(section) {
 
     
 }
-
-window.onload = function() {
-    loadContent('home.html');
-};
