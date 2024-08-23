@@ -5,5 +5,11 @@ function loadContent(section) {
         .then(response => response.text())
         .then(html => content.innerHTML = html)
 
+       
+
     
 }
+
+window.onload = function() {
+    loadContent('home.html');
+};
