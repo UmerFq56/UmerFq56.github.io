@@ -27,3 +27,21 @@
   .navbar li a:hover {
     background-color: #111;
   }
+
+.picture h1 {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+}
+
+.picture img {
+  max-width: 300px; /* Controls image width */
+  height: auto;
+  border-radius: 50%; /* Makes the image circular */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  border: 5px solid #333; /* Adds a solid border */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.picture img:hover {
+  transform: scale(1.1); /* Zooms in on hover */
+}
